@@ -34,6 +34,9 @@ set list
 set cursorline
 set number
 
+set spell spelllang=en_us
+set spellcapcheck=""
+
 let g:gitgutter_sign_column_always = 1
 
 let g:ycm_confirm_extra_conf = 0
@@ -50,6 +53,7 @@ let g:gruvbox_italic=1
 let g:gruvbox_invert_signs=0
 let g:gruvbox_improved_strings=0
 let g:gruvbox_improved_warnings=1
+let g:gruvbox_undercurl=1
 let g:gruvbox_contrast_dark="hard"
 colorscheme gruvbox
 
