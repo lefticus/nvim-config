@@ -11,8 +11,9 @@ Plug 'ChaiScript/vim-cpp'
 "Plug 'Mizuchi/STL-Syntax'
 Plug 'kien/rainbow_parentheses.vim'
 Plug 'arecarn/crunch.vim'
+Plug 'pboettch/vim-cmake-syntax'
 "Plug 'tpope/vim-liquid'
-Plug 'rdnetto/YCM-Generator', { 'branch': 'stable'}
+"Plug 'rdnetto/YCM-Generator', { 'branch': 'stable'}
 Plug 'NLKNguyen/papercolor-theme'
 " Plug 'valloric/youcompleteme'
 " Plug 'jaxbot/semantic-highlight.vim'
@@ -20,6 +21,13 @@ Plug 'NLKNguyen/papercolor-theme'
 
 Plug 'spolu/dwm.vim'
 Plug 'terryma/vim-multiple-cursors'
+Plug 'rhysd/vim-clang-format'
+
+
+
+
+
+
 
 
 call plug#end()
@@ -37,7 +45,7 @@ set number
 set spell spelllang=en_us
 set spellcapcheck=""
 
-let g:gitgutter_sign_column_always = 1
+set signcolumn=yes
 
 let g:ycm_confirm_extra_conf = 0
 
@@ -81,7 +89,8 @@ autocmd BufReadPost *
     \ endif
 
 au VimEnter * RainbowParenthesesActivate
-au Syntax * RainbowParenthesesLoadRound
+" Round disabled for CMakeLists.txt support...
+"au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
 " au Syntax * RainbowParenthesesLoadChevrons
