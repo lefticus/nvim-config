@@ -23,7 +23,7 @@ Plug 'spolu/dwm.vim'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'rhysd/vim-clang-format'
 
-
+Plug 'scrooloose/nerdcommenter'
 
 
 
@@ -41,6 +41,8 @@ set lcs=trail:·,tab:»·
 set list
 set cursorline
 set number
+
+set undofile
 
 set spell spelllang=en_us
 set spellcapcheck=""
