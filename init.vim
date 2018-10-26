@@ -15,6 +15,9 @@ Plug 'pboettch/vim-cmake-syntax'
 "Plug 'tpope/vim-liquid'
 "Plug 'rdnetto/YCM-Generator', { 'branch': 'stable'}
 Plug 'NLKNguyen/papercolor-theme'
+Plug 'sjl/gundo.vim'
+
+" let g:ycm_python_binary_path = 'python'
 " Plug 'valloric/youcompleteme'
 " Plug 'jaxbot/semantic-highlight.vim'
 " Plug 'nathanaelkane/vim-indent-guides'
