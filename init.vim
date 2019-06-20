@@ -24,7 +24,13 @@ Plug 'sjl/gundo.vim'
 
 Plug 'spolu/dwm.vim'
 Plug 'terryma/vim-multiple-cursors'
-Plug 'rhysd/vim-clang-format'
+
+
+Plug 'sbdchd/neoformat'
+
+" let g:neoformat_enabled_cpp = ['clang-format']
+" let g:neoformat_enabled_cmake = ['cmake-format']
+
 
 Plug 'scrooloose/nerdcommenter'
 
