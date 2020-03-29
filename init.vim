@@ -16,6 +16,9 @@ Plug 'pboettch/vim-cmake-syntax'
 "Plug 'rdnetto/YCM-Generator', { 'branch': 'stable'}
 Plug 'NLKNguyen/papercolor-theme'
 Plug 'sjl/gundo.vim'
+Plug 'APZelos/blamer.nvim'
+
+let g:blamer_enabled = 1
 
 " let g:ycm_python_binary_path = 'python'
 " Plug 'valloric/youcompleteme'
