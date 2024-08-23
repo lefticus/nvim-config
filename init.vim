@@ -7,7 +7,8 @@ Plug 'vim-airline/vim-airline'
 Plug 'plasticboy/vim-markdown'
 Plug 'altercation/vim-colors-solarized'
 Plug 'ChaiScript/vim-chaiscript'
-Plug 'ChaiScript/vim-cpp'
+"Plug 'ChaiScript/vim-cpp'
+Plug 'bfrg/vim-cpp-modern'
 "Plug 'Mizuchi/STL-Syntax'
 Plug 'kien/rainbow_parentheses.vim'
 Plug 'arecarn/crunch.vim'
@@ -16,7 +17,7 @@ Plug 'pboettch/vim-cmake-syntax'
 "Plug 'rdnetto/YCM-Generator', { 'branch': 'stable'}
 Plug 'NLKNguyen/papercolor-theme'
 Plug 'sjl/gundo.vim'
-Plug 'APZelos/blamer.nvim'
+" Plug 'APZelos/blamer.nvim'
 
 let g:blamer_enabled = 1
 
